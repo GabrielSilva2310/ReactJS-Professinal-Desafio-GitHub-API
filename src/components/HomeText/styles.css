@@ -1,0 +1,21 @@
+
+
+.initial-text{
+    margin-top: 27px;
+    margin-left: 41px;
+}
+
+.initial-text h1{
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.initial-text h2{
+    color: #7E7E7E;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+

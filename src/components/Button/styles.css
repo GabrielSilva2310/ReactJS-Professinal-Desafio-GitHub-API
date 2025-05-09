@@ -1,0 +1,14 @@
+
+
+.btn-standard {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #1890FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+}

@@ -1,0 +1,19 @@
+
+
+header{
+    background-color: #1890FF;
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin-left: 41px;
+}
+
+
+nav h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}

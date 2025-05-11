@@ -2,11 +2,17 @@
 
 import './styles.css'
 
-export default function Button() {
+type Props = {
+
+    text : string;
+}
+
+
+export default function Button({text}:Props ) {
   
     return (
         <div className='btn-standard'>
-            Começar
+            {text}
         </div>
   );
 }

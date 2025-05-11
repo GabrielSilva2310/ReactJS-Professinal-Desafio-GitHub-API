@@ -15,9 +15,14 @@ a:hover {
   color: unset;
 }
 
+.nav-container{
+    width: 100%;
+    max-width: 423px;
+    margin: 0 auto;
 
+}
 
-.home-container{
+.search-container{
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
@@ -26,6 +31,10 @@ a:hover {
 
 .mt-27{
     margin-top: 27px;
+}
+
+.ml-41{
+    margin-left: 41px;
 }
 
 

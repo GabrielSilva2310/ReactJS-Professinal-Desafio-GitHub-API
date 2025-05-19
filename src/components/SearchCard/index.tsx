@@ -2,33 +2,42 @@
 
 import './styles.css'
 
-import nelioImg from '../../assets/image 1.png';
+import { ProfileDTO } from '../../models/profile';
 
-export default function SearchCard() {
+
+type Props = {
+
+  profile : ProfileDTO;
+}
+
+export default function SearchCard({profile}:Props) {
+
+
+  
   
     return (
       <>
       <div className='box-container mt-54'>
         <div className='boxresult-custom'>
             <div>
-                <img src={nelioImg} alt="img" />
+                <img src={profile.avatar_url} alt="img" />
             </div>
             <div className='information-cards-container'>
                 <h2>Informações</h2>
                 <div className='information-cards'>
-                   <h3>Perfil: <a href="">https://api.github.com/users/acenelio</a> </h3> 
+                   <h3>Perfil: <a href="">{profile.url}</a> </h3> 
                 </div>
                 <div className='information-cards'>
                    <h3>Seguidores: </h3>
-                   <h4> 4379</h4>
+                   <h4> {profile.followers}</h4>
                 </div>
                 <div className='information-cards'>
                    <h3>Localidade:</h3> 
-                   <h4> Uberlândia</h4>
+                   <h4> {profile.location}</h4>
                 </div>
                 <div className='information-cards'>
                    <h3>Nome:</h3>
-                   <h4> Nélio Alves</h4> 
+                   <h4> {profile.name}</h4> 
                 </div>
             </div>
         </div>

@@ -11,8 +11,8 @@ type Props = {
 export default function Button({text}:Props ) {
   
     return (
-        <div className='btn-standard'>
+        <button className='btn-standard'>
             {text}
-        </div>
+        </button>
   );
 }

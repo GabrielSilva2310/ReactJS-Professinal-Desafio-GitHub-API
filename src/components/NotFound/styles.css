@@ -4,5 +4,5 @@
     margin-top: 64px;
     font-size: 38px;
     font-weight: 500;
-    color: #262626;
+    color: var(--dsc-color-font-quaternary) ;
 }

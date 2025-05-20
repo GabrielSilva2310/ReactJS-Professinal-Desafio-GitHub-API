@@ -1,14 +1,14 @@
 
 
 .initial-text h1{
-    color: #000000;
+    color: var(--dsc-color-font-secondary);
     font-size: 48px;
     font-weight: 700;
 }
 
 
 .initial-text h2{
-    color: #7E7E7E;
+    color: var(--dsc-color-font-tertiary);
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 27px;

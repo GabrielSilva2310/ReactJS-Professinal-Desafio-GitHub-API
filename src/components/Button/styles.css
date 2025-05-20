@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     padding: 8px 16px;
-    background-color: #1890FF;
-    color: #FFFFFF;
+    background-color: var(--dsc-color-bg-primary);
+    color: var(--dsc-color-font-primary);
     font-size: 16px;
     font-weight: 400;
     border-radius: 4px;
